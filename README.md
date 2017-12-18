@@ -3,6 +3,7 @@ simple hexagon terrain tiles generated in unity based on relative probabilities 
 
 # Customization
 width and heigh of board (in tiles), and camera skew are customizable within unity
+
 relative probabilities of each terrain are customizable with Assets\ProjectFiles\TerrainConditionalProbabilities.csv
   - conditional probability table with vertical axis being the given neighbor and horizontal axis being the next time chosen
   - rows should add to 1 for a proper probability model
